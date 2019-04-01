@@ -69,9 +69,9 @@ header figure img{
 
 header .phrase{
     text-align: center;
-    color: #313131;
+    color: #000000;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 /* ================================== */
 
@@ -79,7 +79,7 @@ header .phrase{
 
 main{
     width: 100%;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 /* ===ABOUT ME */
