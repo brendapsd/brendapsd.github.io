@@ -17,18 +17,6 @@
     main .about-me .media img{
         width: 40%;
     }
-
-    main .characteristics .character{
-        margin: auto;
-        width: 60%;
-        margin-bottom: 20px;
-    }
-    
-    .project-description div p{
-        display: block;
-        text-align: center;
-        margin-bottom: 10px;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -37,14 +25,10 @@
         font-size: 2em;
     }
 
-
-    main{
-        margin-top: 150px;
-    }
-
     main .about-me{
-        background: #fff;
-        margin-bottom: 100px;
+        background: #cccccc;
+        margin-bottom: 50px;
+        padding-bottom: 50px;  
     }
 
     main .about-me article{
@@ -64,19 +48,6 @@
     main .about-me .media img{
         width: 40px;
     }
-
-    main .characteristics{
-        margin-bottom: 150px;
-    }
-
-    main .characteristics .character{
-        width: 90%;
-    }
-
-    main .projects {
-        margin-bottom: 150px;
-    }
-    
 
     main .skills .skill{
         width: 40%;
