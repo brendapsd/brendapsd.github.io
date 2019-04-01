@@ -62,7 +62,7 @@ header figure{
 }
 
 header figure img{
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     border: 6px solid rgba(255, 255, 255, .1)
 }
@@ -86,11 +86,10 @@ main{
 
 main .about-me{
     width: 100%;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     background: rgb(242,242,242);
-    padding: 40px 0;
-    margin-bottom: 200px;
+    padding: 100px 0;
 }
 
 main .about-me article{
@@ -99,6 +98,12 @@ main .about-me article{
     margin: auto;
     line-height: 35px;
     margin-bottom: 40px;
+}
+
+main .about-me h1{
+    font-size: 25px; 
+    padding-bottom: 25px;
+    font-weight: 600;
 }
 
 main .about-me article b {
@@ -118,55 +123,13 @@ main .about-me .social img{
     margin: 0px 20px;
 }
 
-
-/* ===characteristics*/
-
-main .characteristics{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 300px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-main .characteristics .character{
-    width: 20%;
-    padding: 30px;
-    text-align: center;
-    background: rgb(235,235,235);
-    transition: all .3s ease;
-}
-
-main .characteristics .character:hover{
-    transform: scale(1.1);
-    background: rgb(216,216,216);
-}
-
-main .characteristics .character .title{
-    font-weight: 700;
-    color: #444;
-    margin: 10px 0;
-}
-
-main .characteristics .character .description{
-    font-weight: 300;
-    font-size: .9em;
-    color: #222;
-}
-main .characteristics .character .description a{
-    color: #222;
-}
-
 /* ===Projects */
 
 main .projects{
     width: 85%;
     max-width: 1200px;
     margin: auto;
-    margin-bottom: 300px;
+    padding: 100px 0; 
 }
 
 main .projects .title{
@@ -185,12 +148,13 @@ main .projects .cont-projects{
     width: 100%;
     padding: 10px;
     background: rgb(235,235,235);
+    margin-top: 20px;
     margin-bottom: 50px;
-    text-align: center;
+    /* text-align: center; */
     color: #444;
 }
 
-    .cont-projects h4{
+    .projects .cont-projects h4{
         font-weight: 700;
     }
 
@@ -198,20 +162,31 @@ main .projects .cont-projects{
         font-weight: 300;
     }
 
-    .cont-projects div{
+    .projects .cont-projects .repositories {
         background: #F2784B;
         margin-top: 10px;
-        padding: 15px;
+        padding: 15px; 
+        /* text-align: center;  */
     }
 
-    .cont-projects div p{
+    .projects .cont-projects .repositories .contenido-repo {
         display: inline-block;
-        margin: 0px 10px;
+        width: 70%;
     }
-    
-    .cont-projects div a{
+
+    .projects .cont-projects .repositories .contenido-repo a{
+        display: block;
+        margin: 0px 10px;
         color: #fff;
-        padding: 5%; 
+    }
+    .projects .cont-projects .repositories .contenido-repo p{
+        display: block;
+        margin: 0px 10px;
+        color: #fff;
+    }
+    .projects .cont-projects .repositories a img{
+        width: 300px;
+        height: 200px; 
     }
 
 
@@ -221,6 +196,7 @@ main .skills {
     width: 85%;
     margin: auto;
     max-width: 1500px;
+    padding: 100px 0;
 
     display: flex;
     flex-direction: row;
@@ -232,7 +208,6 @@ main .skills .title{
     width: 100%;
     font-size: 3em;
     color: #444;
-    margin-bottom: 20px;
     margin: auto;
     margin-bottom: 100px;    
 }
@@ -273,7 +248,6 @@ footer{
 footer .contact{
     width: 100%;
     margin: auto;
-    text-align: center;
 }
 
 footer .contact h2 {
@@ -281,10 +255,20 @@ footer .contact h2 {
     color: #fff;
     font-weight: 300;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-footer .contact  p{
+footer .contact  dl{
     color: #fff;
-    font-weight: bold;
+    font-weight: bold; 
+    padding-left: 42%;  
+    line-height: 30pt; 
 }
-
+footer .contact dl dt a {
+    text-decoration: none;
+    color: #fff; 
+}
+footer .contact dl dt .icono{
+    font-size: 20px;
+    color: #fff;  
+}
