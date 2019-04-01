@@ -150,16 +150,17 @@ main .projects .cont-projects{
     background: rgb(235,235,235);
     margin-top: 20px;
     margin-bottom: 50px;
-    /* text-align: center; */
     color: #444;
 }
 
     .projects .cont-projects h4{
         font-weight: 700;
+        text-align: center;
     }
 
     .cont-projects p{
         font-weight: 300;
+        text-align: center; 
     }
 
     .projects .cont-projects .repositories {
