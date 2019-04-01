@@ -273,3 +273,11 @@ footer .contact dl dt .icono{
     font-size: 20px;
     color: #fff;  
 }
+@media (max-width: 600px) {
+    footer .contact  dl{
+        color: #fff;
+        font-weight: bold; 
+        padding-left: 10%;  
+        line-height: 30pt; 
+    }
+  } 
