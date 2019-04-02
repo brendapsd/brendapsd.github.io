@@ -32,7 +32,7 @@ header{
     overflow: hidden;
     padding: 25vh 0;
 
-    background: url('https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/img/header.jpg');
+    background: url('/img/header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
