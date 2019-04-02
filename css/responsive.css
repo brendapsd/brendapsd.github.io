@@ -17,6 +17,13 @@
     main .about-me .media img{
         width: 40%;
     }
+    main .projects .cont-projects .repositories{
+        text-align: center; 
+    }
+    main .projects .cont-projects .repositories a img{
+        width: 50%;
+        height: 200px; 
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -59,5 +66,12 @@
 
     footer .contact h2{
         font-size: 2em;
+    }
+    main .projects .cont-projects .repositories{
+        text-align: center; 
+    }
+    main .projects .cont-projects .repositories a img{
+        width: 70%;
+        height: 100px; 
     }
 }
