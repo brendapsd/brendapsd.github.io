@@ -4,7 +4,7 @@
         height: 100vh;
         padding: 25vh 0;
 
-        background: url('/img/header-min.jpg');
+        background: url('/img/header.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -44,7 +44,7 @@
         height: 100vh;
         padding: 25vh 0;
 
-        background: url('/img/header-min.jpg');
+        background: url('/img/header.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
