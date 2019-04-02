@@ -10,9 +10,6 @@
         background-repeat: repeat;
         background-attachment: fixed;
     
-        /* animation: in ;
-        animation-iteration-count: initial;
-        animation-duration: 3s; */
     }
 
     header .title{
@@ -52,10 +49,7 @@
         background-size: cover;
         background-repeat: repeat;
         background-attachment: fixed;
-    
-        /* animation: in ;
-        animation-iteration-count: initial;
-        animation-duration: 3s; */
+
     }
 
     header .title{
