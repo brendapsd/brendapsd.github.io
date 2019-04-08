@@ -60,9 +60,9 @@ header figure{
 }
 
 header figure img{
-    width: 200px;
-    border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, .1)
+    width: 180px;
+    /* /* border-radius: 50%; */
+    border: 6px solid rgba(255, 255, 255, .1); 
 }
 
 header .phrase{
@@ -123,6 +123,13 @@ main .about-me .social img{
 }
 
 /* ===Projects */
+
+
+.card-title strong {
+    font-size: 20px;
+}
+
+
 
 main .projects{
     width: 85%;
@@ -202,17 +209,17 @@ main .skills {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 main .skills .title{
     width: 100%;
     font-size: 3em;
     color: #444;
-    margin: auto;
-    margin-bottom: 100px;    
+    margin: auto;   
 }
 
-    .skill{
+    /* .skill{
         width: 25%;
         text-align: center;
         margin: 0 10px ;
@@ -222,61 +229,62 @@ main .skills .title{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    } */
+
+    .row .skill img{
+        width: 80px;
+        margin: 40px;
     }
 
-    .skill img{
-        width: 140px;
-        margin: auto;
-        margin-bottom: 20px;
+    .row .skill .image{
+        padding-top: 50px;
+        width: 110px;
+        margin: 40px; 
     }
 
-    .skill p{
+    .row .skill p{
         width: 100%;
         font-weight: 700;
-        text-align: center;
     }
 /* ============================== */
 
+main .contact {
+    text-align: center; 
+    padding: 100px 0;
+}
+
+main .contact .title{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    margin: auto;
+    margin-bottom: 100px;    
+}
+
+main .contact .row {
+    text-align: center; 
+}
+
+main .contact .row .info .icono {
+    font-size: 80px; 
+}
+main .contact .row .info p a{
+    text-decoration: none; 
+    color: #222; 
+}
 
 /* Footer */
+
 footer{
-    margin-top: 100px;
-    padding: 30px;
     background: #222;
-}
-
-footer .contact{
     width: 100%;
-    margin: auto;
+    text-align: center; 
+    bottom: 0;
+    height: 50px;
 }
 
-footer .contact h2 {
-    font-size: 2em;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-footer .contact  dl{
-    color: #fff;
-    font-weight: bold; 
-    padding-left: 42%;  
-    line-height: 30pt; 
-}
-footer .contact dl dt a {
-    text-decoration: none;
+footer p {
+    padding-top: 10px; 
     color: #fff; 
 }
-footer .contact dl dt .icono{
-    font-size: 20px;
-    color: #fff;  
-}
-@media (max-width: 600px) {
-    footer .contact  dl{
-        color: #fff;
-        font-weight: bold; 
-        padding-left: 5%;  
-        line-height: 30pt; 
-    }
-  } 
+ 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/45088762/55689725-ae1cfd00-594d-11e9-98c3-ae31dae15721.png"/>
     <title>Brenda Suyon</title>
     <meta name="author" content="Brenda Suyon Diaz">
     <meta name="description" content="Desarrollador Web | HTML y CSS">
@@ -10,145 +11,196 @@
     mininum-scale=1.0">
     <meta name="keywords" content="HTML,CSS,Javascript,Desarrollador,Web,Paginas">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="css/animacion.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- <link rel="stylesheet" href="css/navbar.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Inicio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<body class="" data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href=""></a>
+        <button class="navbar-toggler" id="menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Barra de navegación">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutMe">Acerca de mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#habilidades">Habilidades</a>
-            </li>  
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
-            </li>  
-          </ul>
-        </div>  
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#inicio">Inicio</a>
+            <a class="nav-item nav-link" href="#aboutMe">Sobre mí</a>
+            <a class="nav-item nav-link" href="#projects">Proyectos</a>
+            <a class="nav-item nav-link" href="#habilidades">Habilidades</a>
+            <a class="nav-item nav-link" href="#contact">Contacto</a>
+          </div>
+        </div>
       </nav>
       
     <!--HEADER-->
     <header id="inicio">
         <h1 class="title"> &lt;Brenda Suyon Diaz/&gt; </h1>
         <figure>
-            <img src="https://user-images.githubusercontent.com/45088762/55356873-5be16500-5491-11e9-9539-2f9f96c6dfdb.JPG" alt="Brenda Suyon Diaz">
+            <img src="https://user-images.githubusercontent.com/45088762/55699383-48059980-5990-11e9-98aa-a54f27f7131c.jpeg" class="rounded-circle" alt="Brenda Suyon Diaz">
         </figure>
         <p class="phrase">Front-End Developer + Diseñadora Gráfica</p>
     </header>
     <!--MAIN-->
     <main>
         <section class="about-me" id="aboutMe">
-                <h1>Hola, soy Brenda. Encantada de Conocerte.</h1>
+                <h1>Hola, soy Brenda. Encantada de conocerte.</h1>
             <article>
                 <p class="description">Soy <b>Front-End Developer</b> y <b>Diseñadora Gráfica</b>. Especializada en herramientas de desarrollo web, como: <b>JavaScript</b>, 
-                    <b>HTML</b> y <b>CSS</b>, como también en herramientas de diseño digital: <b>Illustrator</b> y <b>Photoshop</b>. Soy creativa, empática y autodidacta, con 
-                    aspiraciones de aprender frameworks de JavaScript como Angular y React</p>
+                    <b>HTML</b> y <b>CSS</b>. Así también, manejo herramientas de diseño digital como: <b>Illustrator</b> y <b>Photoshop</b>. Soy creativa, empática y autodidacta.
+                    Tengo como aspiración aprender frameworks y librerías de JavaScript como Angular y React.
+                </p>
             </article>
-
-            <section class="social">
-                <a target="_blank" href="https://github.com/brendapsd"><img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/social/github.png" alt="github"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/brendasuyon/"><img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/social/linkedin.png" alt="linkedin"></a>
-            </section>
         </section>
 
-        <section class="projects" id="projects">
-            <h2 class="title">Proyectos</h2>
+        <section id="projects" class="projects bg-color text-center pt-5">
+            <h2 class="title text-black mt-4">Proyectos</h2>
             <p class="descripction">Proyectos hechos en colaboracion y personales. Todos alojados en 
-                <a target="_blank" href="https://github.com/brendapsd">GitHub</a></p>
-            <div class="cont-projects">
-               <h4 class="title">Javascript</h4>
-                <p class="info">Páginas Webs con HTML y CSS</p>
-                <div class="repositories">
-                    <a target="_blank" href="https://cinthyasegura.github.io/lim-2018-11-bc-core-am-data-lovers/src/"><img src="https://user-images.githubusercontent.com/45088762/55345209-f67f7b00-5474-11e9-8681-5beb2f543cb5.png" alt="data lover"></a>
-                    <div class="contenido-repo">
-                        <a target="_blank" href="https://github.com/brendapsd/lim-2018-11-bc-core-am-data-lovers">Data Lovers</a>
-                        <p>Este página contiene información del Banco Mundial sobre los países Perú Brasil Chile México, 
-                            y nos muestra los indicadores de población, empleo, desempleo, educación, violencia.</p>
+              <a target="_blank" href="https://github.com/brendapsd">GitHub</a>
+            </p>
+            <hr class="mt-0 mb-0" />
+            <div class="container">
+              <div class="row mr-2 ml-2 mt-4 pb-5">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="card bg-light border-secondary mb-3">
+                    <img src="https://user-images.githubusercontent.com/45088762/55345209-f67f7b00-5474-11e9-8681-5beb2f543cb5.png" class="card-img p-1" alt="dataDasboard">
+                    <div class="card-body text-dark">
+                      <span class="card-title"><strong>Desarrollo Latinoamericano</strong></span>
+                      <p class="card-text ">
+                        La página contiene información del Banco Mundial sobre los países Perú Brasil Chile México, 
+                        y nos muestra los indicadores de población, empleo, desempleo, educación, violencia.
+                      </p>
+                      <p>
+                        Elaborado con: <strong>JavaScript, HTML, CSS</strong>
+                      </p>
+                      <a href="https://cinthyasegura.github.io/lim-2018-11-bc-core-am-data-lovers/src/" target="_blank" class="btn text-black m-1">
+                        <i class="fas fa-eye mr-2"></i>Demo</a>
+                      <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-data-lovers" target="_target" class="btn text-black m-1">
+                        <i class="fab fa-github mr-2"></i>Código</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="card bg-light border-secondary mb-3">
+                    <img src="https://user-images.githubusercontent.com/45088762/55702217-881e4980-599b-11e9-92a7-b4f875dce144.png" class="card-img p-1" alt="md-links"> 
+                    <div class="card-body text-dark">
+                      <span class="card-title"><strong>Markdown Links</strong></span> 
+                      <p class="card-text pr-3 pl-3">
+                        Es una librería que lee y analiza archivos en formato Markdown, para 
+                        verificar los links que contengan y reportar algunas estadísticas. 
+                      </p>
+                      <p>
+                        Elaborado con: <strong>JavaScript, HTML, CSS, Node.JS</strong>
+                      </p> 
+                      <a href="https://github.com/brendapsd/md-links" target="_blank" class="btn text-black m-1">
+                        <i class="fas fa-eye mr-2"></i>Documentación</a>
+                      <a href="https://github.com/brendapsd/md-links/tree/master/src" target="_blank" class="btn text-black m-1">
+                        <i class="fab fa-github mr-2"></i>Código</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card bg-light border-secondary mb-3">
+                      <img src="https://user-images.githubusercontent.com/45088762/55348359-a86e7580-547c-11e9-8d5a-8e94733e7f69.PNG" class="card-img p-1" alt="md-links">
+                      <div class="card-body text-dark">
+                        <span class="card-title"><strong>PetBook</strong></span>
+                        <p class="card-text">
+                            Red social para dueños de mascotas en la cual los dueños pueden interactuar y 
+                            así poder darse recomendaciones y consejos para el cuidado de sus mascotas.
+                        </p>
+                        <p>
+                            Elaborado con: <strong>JavaScript, HTML, CSS, Firebase</strong>
+                          </p>
+                        <a href="https://www.npmjs.com/package/melyhc-md-links" target="_blank" class="btn text-black m-1">
+                          <i class="fas fa-eye mr-2"></i>Demo</a>
+                        <a href="https://github.com/MelyHC/lim20181-Track-FE-markdown-list" target="_blank" class="btn text-black m-1">
+                          <i class="fab fa-github mr-2"></i>Código</a>
+                      </div>
                     </div>
                 </div>
-                <div class="repositories">
-                    <a target="_blank" href="https://brendapsd.github.io/lim-2018-11-bc-core-am-cipher/src/"><img src="https://user-images.githubusercontent.com/45088762/55344952-680af980-5474-11e9-8a64-0751ca6ef29b.PNG" alt="Mensaje de amor"></a>
-                    <div class="contenido-repo">
-                        <a target="_blank" href="https://github.com/brendapsd/lim-2018-11-bc-core-am-cipher">Cifrado Cesar</a>
-                        <p>Esta página puedes mandar mensajes románticos cifrados a tu pareja para que nadie lo vea. </p>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="card bg-light border-secondary">
+                      <img src="https://user-images.githubusercontent.com/45088762/55344952-680af980-5474-11e9-8a64-0751ca6ef29b.PNG" class="card-img p-1" alt="It's Food">
+                      <div class="card-body text-dark">
+                        <span class="card-title"><strong>Mensajes de Amor</strong></span>
+                        <p class="card-text pr-3 pl-3">
+                            En esta página puedes mandar mensajes románticos cifrados a tu pareja para que nadie lo vea.
+                        </p>
+                        <p>
+                            Elaborado con: <strong>JavaScript, HTML, CSS</strong>
+                        </p> <br> 
+                        <a href="https://brendapsd.github.io/lim-2018-11-bc-core-am-cipher/src/" target="_blank" class="btn text-black m-1">
+                          <i class="fas fa-eye mr-2"></i>Demo</a>
+                        <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-cipher" target="_blank" class="btn text-black m-1">
+                          <i class="fab fa-github mr-2"></i>Código</a>
+                      </div>
                     </div>
-                </div>
+                  </div>
+              </div>
             </div>
-            <div class="cont-projects">
-                <h4 class="title">Firebase</h4>
-                <p class="info">Base de datos de Google</p>
-                <div class="repositories">
-                    <a target="_blank" href="https://athalaab.github.io/LIM008-social-network/src/"><img src="https://user-images.githubusercontent.com/45088762/55348359-a86e7580-547c-11e9-8d5a-8e94733e7f69.PNG" alt="PetBook"></a>
-                    <div class="contenido-repo">
-                        <a target="_blank" href="https://github.com/brendapsd/LIM008-social-network">Social Network</a>
-                        <p>Red social para dueños de mascotas en la cual los dueños pueden interactuar y 
-                            así poder darse recomendaciones y consejos para el cuidado de sus mascotas.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-projects">
-                <h4 class="title">Node.js</h4>
-                <p class="info">Libreria</p>
-                <div class="repositories">
-                    <a target="_blank" href="#"><img src="https://user-images.githubusercontent.com/45088762/54507324-c8475a80-490e-11e9-8058-070f53da9090.PNG" alt="md-links"></a>
-                    <div class="contenido-repo">
-                        <a target="_blank" href="https://github.com/brendapsd/md-links">md-links</a>
-                        <p>Es una libreria que lee y analiza archivos en formato Markdown, para 
-                            verificar los links que contengan y reportar algunas estadísticas.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </section>
+
         <section class="skills" id="habilidades">
             <h2 class="title">Habilidades</h2>
-                <div class="skill">
+            <div class="row mr-2 ml-2 mt-4 pb-5">
+                <div class="skill col-6 col-md-4 col-lg-2">
                     <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/html.png" alt="HTML5">
                     <p class="name">HTML</p>
                 </div>
-                <div class="skill">
+                <div class="skill col-6 col-md-4 col-lg-2">
                     <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/css.png" alt="CSS3">
                     <p class="name">CSS</p>
                 </div>
-                <div class="skill">
+                <div class="skill col-6 col-md-4 col-lg-2">
                     <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/javascript.png" alt="JavaScript">
                     <p class="name">JavaScript</p>
                 </div>
-                <div class="skill">
-                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/node.png" alt="Node.JS">
+                <div class="skill col-6 col-md-4 col-lg-2">
+                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/node.png" class="image" alt="Node.JS">
                     <p class="name">Node</p>
                 </div>
+                <div class="skill col-6 col-md-4 col-lg-2">
+                  <img src="https://user-images.githubusercontent.com/45088762/55688238-0a772100-593c-11e9-883a-88a9b8ae168c.png" alt="AdobeIllustrator">
+                  <p class="name">Illustrator</p>
+                </div>
+                <div class="skill col-6 col-md-4 col-lg-2">
+                  <img src="https://user-images.githubusercontent.com/45088762/55688255-3eeadd00-593c-11e9-950b-728eb942731d.png" alt="AdobePhotoshop">
+                  <p class="name">Photoshop</p>
+                </div>
+              </div>
+        </section>
+        <section class="contact" id="contact">
+          <h2 class="title">Contáctame</h2>
+          <div class="row mr-2 ml-2 mt-4 pb-5">
+            <div class="info col-6 col-md-4 col-lg-3">
+                <i class="icono fas fa-mobile-alt"></i>
+                <p class="">+51 959780528</p>
+            </div>
+            <div class="info col-6 col-md-4 col-lg-3">
+                <i class="icono fas fa-envelope"></i>
+                <p class="">brenda.sd.15@gmail.com</p>
+            </div>
+            <div class="info col-6 col-md-4 col-lg-3">
+                <i class="icono fab fa-linkedin-in"></i>
+                <p><a target="_blank" href="https://www.linkedin.com/in/brendasuyon/"> /brendasuyon</a></p>
+            </div>
+            <div class="info col-6 col-md-4 col-lg-3">
+                <i class="icono fab fa-github"></i>
+                <p><a target="_blank" href="https://github.com/brendapsd">  /brendapsd</a></p>
+            </div>
+          </div>
         </section>
     </main>
     
     <footer>
-        <div class="contact" id="contact">
-            <h2>Contáctame</h2>
-            <dl>
-                <dt><i class="icono fas fa-phone"></i> +51 959780528</dt>
-                <dt><i class="icono fas fa-envelope"></i>    brenda.sd.15@gmail.com</dt>
-                <dt><i class="icono fab fa-linkedin-in"></i><a target="_blank" href="https://www.linkedin.com/in/brendasuyon/"> /brendasuyon</a></dt>
-                <dt><i class="icono fab fa-github"></i><a target="_blank" href="https://github.com/brendapsd">  /brendapsd</a></dt>
-            </dl>
-        </div>
-
+        <p>Copyright © 2019 Brenda Suyon.</p>
     </footer>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
