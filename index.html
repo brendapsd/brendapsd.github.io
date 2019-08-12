@@ -1,225 +1,672 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/45088762/55689725-ae1cfd00-594d-11e9-98c3-ae31dae15721.png"/>
-    <title>Brenda Suyon</title>
-    <meta name="author" content="Brenda Suyon Diaz">
-    <meta name="description" content="Desarrollador Web | HTML y CSS">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scal=1.0, 
-    mininum-scale=1.0">
-    <meta name="keywords" content="HTML,CSS,Javascript,Desarrollador,Web,Paginas">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/animacion.css"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- <link rel="stylesheet" href="css/navbar.css"> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>BRENDA</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body class="" data-spy="scroll" data-target=".navbar">
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand" href=""></a>
-        <button class="navbar-toggler" id="menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-          aria-expanded="false" aria-label="Barra de navegación">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#inicio">Inicio</a>
-            <a class="nav-item nav-link" href="#aboutMe">Sobre mí</a>
-            <a class="nav-item nav-link" href="#projects">Proyectos</a>
-            <a class="nav-item nav-link" href="#habilidades">Habilidades</a>
-            <a class="nav-item nav-link" href="#contact">Contacto</a>
-          </div>
-        </div>
-      </nav>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">BRENDA</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Inicio</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">Acerca de mí</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Experiencia</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Proyectos</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contacto</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hola, Mundo.</h5>
+	   			<h1>Soy Brenda Suyon.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Desarrolladora Front-End</span>
+	   				<span>Diseñadora Gráfica</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Más sobre mí</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+		 <li><a target="_blank" href="https://github.com/brendapsd"><i class="fa fa-github"></i></a></li>
+		 <li><a target="_blank" href="https://www.linkedin.com/in/brendasuyon/"><i class="fa fa-linkedin"></i></a></li>
+		 <li><a target="_blank" href="https://www.behance.net/brendasd"><i class="fa fa-behance"></i></a></li>
+         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+         <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Acerca de mí</h5>
+   			<h1>Conóceme.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Foto de perfil">
+
+   				<p class="lead">Soy Front-End Developer y Diseñadora Gráfica. Especializada en herramientas de desarrollo web, como: JavaScript, HTML y CSS. Así también, manejo herramientas de diseño digital como: Illustrator y Photoshop. Soy creativa, empática y autodidacta. Tengo como aspiración ser UI Developer.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Perfil</h3>
+   			<!-- <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p> -->
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Nombre Completo:</strong>
+   					<span>Brenda Suyon Diaz</span>
+   				</li>
+   				<li>
+   					<strong>Fecha de nacimiento:</strong>
+   					<span>15 de Junio</span>
+   				</li>
+   				<li>
+   					<strong>Trabajo:</strong>
+   					<span>Desarrolladora Frontend, Diseñadora Gráfica</span>
+   				</li>
+   				<!-- <li>
+   					<strong>Website:</strong>
+   					<span>www.kardswebsite.com</span>
+   				</li> -->
+   				<li>
+   					<strong>Email:</strong>
+   					<span>brenda.sd.15@gmail.com</span>
+				</li>
+				<li>
+					<strong>Teléfono:</strong>
+					<span>+51 959780528</span>
+				</li>
+				
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Habilidades</h3>
+   			<!-- <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p> -->
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>JavaScript</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent60"><span>60%</span></div>
+				   	<strong>Node.JS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent45"><span>45%</span></div>
+				   	<strong>React.JS</strong>
+				   </li>
+				  
       
-    <!--HEADER-->
-    <header id="inicio">
-        <h1 class="title"> &lt;Brenda Suyon Diaz/&gt; </h1>
-        <figure>
-            <img src="https://user-images.githubusercontent.com/45088762/55699383-48059980-5990-11e9-98aa-a54f27f7131c.jpeg" class="rounded-circle" alt="Brenda Suyon Diaz">
-        </figure>
-        <p class="phrase">Front-End Developer + Diseñadora Gráfica</p>
-    </header>
-    <!--MAIN-->
-    <main>
-        <section class="about-me" id="aboutMe">
-                <h1>Hola, soy Brenda. Encantada de conocerte.</h1>
-            <article>
-                <p class="description">Soy <b>Front-End Developer</b> y <b>Diseñadora Gráfica</b>. Especializada en herramientas de desarrollo web, como: <b>JavaScript</b>, 
-                    <b>HTML</b> y <b>CSS</b>. Así también, manejo herramientas de diseño digital como: <b>Illustrator</b> y <b>Photoshop</b>. Soy creativa, empática y autodidacta.
-                    Tengo como aspiración ser UI Developer.
-                </p>
-            </article>
-        </section>
+				</ul> <!-- /skill-bars -->		
 
-        <section id="projects" class="projects bg-color text-center pt-5">
-            <h2 class="title text-black mt-4">Proyectos</h2>
-            <p class="descripction">Proyectos hechos en colaboracion y personales. Todos alojados en 
-              <a target="_blank" href="https://github.com/brendapsd">GitHub</a>
-            </p>
-            <hr class="mt-0 mb-0" />
-            <div class="container">
-              <div class="row mr-2 ml-2 mt-4 pb-5">
-                <div class="col-12 col-md-6 col-lg-6">
-                  <div class="card bg-light border-secondary mb-3">
-                    <img src="https://user-images.githubusercontent.com/45088762/55345209-f67f7b00-5474-11e9-8681-5beb2f543cb5.png" class="card-img p-1" alt="dataDasboard">
-                    <div class="card-body text-dark">
-                      <span class="card-title"><strong>Desarrollo Latinoamericano</strong></span>
-                      <p class="card-text ">
-                        La página contiene información del Banco Mundial sobre los países Perú Brasil Chile México, 
-                        y nos muestra los indicadores de población, empleo, desempleo, educación, violencia.
-                      </p>
-                      <p>
-                        Elaborado con: <strong>JavaScript, HTML, CSS</strong>
-                      </p>
-                      <a href="https://brendapsd.github.io/lim-2018-11-bc-core-am-data-lovers/src/" target="_blank" class="btn text-black m-1">
-                        <i class="fas fa-eye mr-2"></i>Demo</a>
-                      <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-data-lovers" target="_target" class="btn text-black m-1">
-                        <i class="fab fa-github mr-2"></i>Código</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                  <div class="card bg-light border-secondary mb-3">
-                    <img src="https://user-images.githubusercontent.com/45088762/55702217-881e4980-599b-11e9-92a7-b4f875dce144.png" class="card-img p-1" alt="md-links"> 
-                    <div class="card-body text-dark">
-                      <span class="card-title"><strong>Markdown Links</strong></span> 
-                      <p class="card-text pr-3 pl-3">
-                        Es una librería que lee y analiza archivos en formato Markdown, para 
-                        verificar los links que contengan y reportar algunas estadísticas. 
-                      </p>
-                      <p>
-                        Elaborado con: <strong>JavaScript, Node.JS, npm-package</strong>
-                      </p> 
-                      <a href="https://github.com/brendapsd/md-links" target="_blank" class="btn text-black m-1">
-                        <i class="fas fa-eye mr-2"></i>Documentación</a>
-                      <a href="https://github.com/brendapsd/md-links/tree/master/src" target="_blank" class="btn text-black m-1">
-                        <i class="fab fa-github mr-2"></i>Código</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="card bg-light border-secondary mb-3">
-                      <img src="https://user-images.githubusercontent.com/45088762/55348359-a86e7580-547c-11e9-8d5a-8e94733e7f69.PNG" class="card-img p-1" alt="md-links">
-                      <div class="card-body text-dark">
-                        <span class="card-title"><strong>PetBook</strong></span>
-                        <p class="card-text">
-                            Red social para dueños de mascotas en la cual los dueños pueden interactuar y 
-                            así poder darse recomendaciones y consejos para el cuidado de sus mascotas.
-                        </p>
-                        <p>
-                            Elaborado con: <strong>JavaScript, HTML, CSS, Firebase</strong>
-                          </p>
-                        <a href="https://brendapsd.github.io/LIM008-social-network/src/" target="_blank" class="btn text-black m-1">
-                          <i class="fas fa-eye mr-2"></i>Demo</a>
-                        <a href="https://github.com/brendapsd/LIM008-social-network" target="_blank" class="btn text-black m-1">
-                          <i class="fab fa-github mr-2"></i>Código</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="card bg-light border-secondary">
-                      <img src="https://user-images.githubusercontent.com/45088762/55344952-680af980-5474-11e9-8a64-0751ca6ef29b.PNG" class="card-img p-1" alt="It's Food">
-                      <div class="card-body text-dark">
-                        <span class="card-title"><strong>Mensajes de Amor</strong></span>
-                        <p class="card-text pr-3 pl-3">
-                            En esta página puedes mandar mensajes románticos cifrados a tu pareja para que nadie lo vea.
-                        </p>
-                        <p>
-                            Elaborado con: <strong>JavaScript, HTML, CSS</strong>
-                        </p> <br> 
-                        <a href="https://brendapsd.github.io/lim-2018-11-bc-core-am-cipher/src/" target="_blank" class="btn text-black m-1">
-                          <i class="fas fa-eye mr-2"></i>Demo</a>
-                        <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-cipher" target="_blank" class="btn text-black m-1">
-                          <i class="fab fa-github mr-2"></i>Código</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6 col-lg-6">
-                      <div class="card bg-light border-secondary mb-3">
-                        <img src="https://user-images.githubusercontent.com/45088762/61487132-b8965c00-a96a-11e9-909d-b2b9aee0ad9e.PNG" class="card-img p-1" alt="md-links">
-                        <div class="card-body text-dark">
-                          <span class="card-title"><strong>Burger Queen</strong></span>
-                            <p class="card-text">
-                                Interfaz en la cual se puede tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente. 
-                            </p>
-                            <p>
-                              Elaborado con: <strong>JavaScript, HTML, CSS, Firebase</strong>
-                            </p>
-                            <a href="https://brendapsd.github.io/LIM008-fe-burger-queen/src/" target="_blank" class="btn text-black m-1">
-                              <i class="fas fa-eye mr-2"></i>Demo</a>
-                            <a href="https://github.com/brendapsd/LIM008-fe-burger-queen" target="_blank" class="btn text-black m-1">
-                            <i class="fab fa-github mr-2"></i>Código</a>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-            </div>
-            
-          </section>
+   		</div>
 
-        <section class="skills" id="habilidades">
-            <h2 class="title">Habilidades</h2>
-            <div class="row mr-2 ml-2 mt-4 pb-5">
-                <div class="skill col-6 col-md-4 col-lg-2">
-                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/html.png" alt="HTML5">
-                    <p class="name">HTML</p>
-                </div>
-                <div class="skill col-6 col-md-4 col-lg-2">
-                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/css.png" alt="CSS3">
-                    <p class="name">CSS</p>
-                </div>
-                <div class="skill col-6 col-md-4 col-lg-2">
-                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/javascript.png" alt="JavaScript">
-                    <p class="name">JavaScript</p>
-                </div>
-                <div class="skill col-6 col-md-4 col-lg-2">
-                    <img src="https://raw.githubusercontent.com/NicolasTicona/NexusBrothers-Portafolio/master/source/aptitudes/node.png" class="image" alt="Node.JS">
-                    <p class="name">Node</p>
-                </div>
-                <div class="skill col-6 col-md-4 col-lg-2">
-                  <img src="https://user-images.githubusercontent.com/45088762/55688238-0a772100-593c-11e9-883a-88a9b8ae168c.png" alt="AdobeIllustrator">
-                  <p class="name">Illustrator</p>
-                </div>
-                <div class="skill col-6 col-md-4 col-lg-2">
-                  <img src="https://user-images.githubusercontent.com/45088762/55688255-3eeadd00-593c-11e9-950b-728eb942731d.png" alt="AdobePhotoshop">
-                  <p class="name">Photoshop</p>
-                </div>
-              </div>
-        </section>
-        <section class="contact" id="contact">
-          <h2 class="title">Contáctame</h2>
-          <div class="row mr-2 ml-2 mt-4 pb-5">
-            <div class="info col-12 col-md-4 col-lg-3">
-                <i class="icono fas fa-mobile-alt"></i>
-                <p class="">+51 959780528</p>
-            </div>
-            <div class="info col-12 col-md-4 col-lg-3">
-                <i class="icono fas fa-envelope"></i>
-                <p class="">brenda.sd.15@gmail.com</p>
-            </div>
-            <div class="info col-12 col-md-4 col-lg-3">
-                <i class="icono fab fa-linkedin-in"></i>
-                <p><a target="_blank" href="https://www.linkedin.com/in/brendasuyon/"> /brendasuyon</a></p>
-            </div>
-            <div class="info col-12 col-md-4 col-lg-3">
-                <i class="icono fab fa-github"></i>
-                <p><a target="_blank" href="https://github.com/brendapsd">  /brendapsd</a></p>
-            </div>
-          </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Copyright © 2019 Brenda Suyon.</p>
-    </footer>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contrátame</a>
+   			<a target="_blank" href="https://drive.google.com/file/d/1EwxDM8XdFG_wg7iiNNZrb0axG4ZPJz4I/view" title="Download CV" class="button button-primary">Descarga CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Experiencia</h5>
+   			<h1>Conoce mi educación y experiencia laboral</h1>
+
+   			<p class="lead">Tengo experiencia laboral como Diseñadora Gráfica realizando material impreso, como material digital para diferente medios. Como Desarrolladora Front-End, realice proyectos en bootcamp de Laboratoria y de manera Freelance</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Educación</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Front-End Developer</h3>
+	   					<p>Noviembre 2018 - Mayo 2019</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Laboratoria</h4>
+	   					<p>Bootcamp intensivo que réplica un ambiente laboral, donde desarrollo habilidades como Front-End Developer. También aprendemos sobre las metodologías agiles con las que actualmente trabajan las grandes empresas de tecnología. </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Ing. de Diseño Gráfico</h3>
+	   					<p>Julio 2013 - Julio 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Universidad Tecnológica del Perú</h4>
+	   					<p>En la carrera aprendí sobre como planificar, dirigir y controlar producciones para empresas web, industrias gráficas, impresas y multimedia, utilizando las últimas innovaciones tecnológicas de manera eficiente y acorde con las necesidades del mercado.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Experiencia Laboral</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Diseñadora Gráfica</h3>
+	   					<p>Abril 2018 - Octubre 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Industrial Armotek S.A.C</h4>
+	   					<p>- Elaboración de material publicitario impreso
+							como: brochure y flyer.<br>
+							- Manejo y creación de contenido para redes
+							sociales y página web. <br>
+							- Fotografía de los muebles institucionales.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Proyectos</h5>
+   			<h1>Mira algunos de mis proyectos.</h1>
+
+   			<p class="lead">Proyectos hechos en colaboracion y personales. Todos alojados en <a target="_blank" href="https://github.com/brendapsd">GitHub</a>.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/petbook.png" alt="PetBook">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">PetBook</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Desarrollo Front-End		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/burger-queen.png" alt="Burger Queen">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Burger Queen</h3>	     					    
+		     					    	<span class="folio-types">
+											Desarrallo Front-End 
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/desarrollo-latinoamericano.png"alt="Desarrllo latinoamericano">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Desarrollo Latinoamericano</h3>	     					    
+		     					    	<span class="folio-types">
+											Desarrollo Front-End
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/md-links.png" alt="md-links">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">MD-LINKS</h3>	     					    
+		     					    	<span class="folio-types">
+											Desarrollo Front-End
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/mensaje-secreto.png" alt="Mensajes secretos para tu pareja">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Mensaje de amor</h3>	     					    
+		     					    	<span class="folio-types">
+											Desarrollo Front-End
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <!-- <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/salad.jpg" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Salad</h3>	     					    
+		     					    	<span class="folio-types">
+											Front-End Development
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> /folio-item    -->
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/petbook.png" alt="PetBook" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>PetBook</h4>		      
+					      <p>Red social para dueños de mascotas en la cual los dueños pueden interactuar y así poder darse recomendaciones y consejos para el cuidado de sus mascotas.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/brendapsd/LIM008-social-network" target="_blank">Código y demo</a>
+						<a href="#" class="popup-modal-dismiss">Cerrar</a>
+						  
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/burger-queen.PNG" alt="Burger Queen" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Burger Queen</h4>		      
+					      <p>Interfaz en la cual se puede tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/brendapsd/LIM008-fe-burger-queen" target="_blank">Código y Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Cerrar</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/desarrollo-latinoamericano.png" alt="Desarrollo Latinoamericano" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Desarrollo Latinoamericano</h4>		      
+					      <p>La página contiene información del Banco Mundial sobre los países Perú Brasil Chile México, y nos muestra los indicadores de población, empleo, desempleo, educación, violencia.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-data-lovers" target="_blank">Código y Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Cerrar</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/md-links.png" alt="Libreria md-links" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Markdown Links</h4>		      
+					      <p>Es una librería que lee y analiza archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/brendapsd/md-links/tree/master/src" target="_blank">Código y Documentación</a>
+					      <a href="#" class="popup-modal-dismiss">Cerrar</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/mensaje-secreto.png" alt="mensaje secreto de amor" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Mensajes de Amor</h4>		      
+					      <p>En esta página puedes mandar mensajes románticos cifrados a tu pareja para que nadie lo vea.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/brendapsd/lim-2018-11-bc-core-am-cipher" target="_blank">Código y Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Cerrar</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <!-- <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contacto</h5>
+   			<h1>Me encantaría saber de ti.</h1>
+
+   			<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Envíeme un correo electrónico a</h5>
+
+   			<p>brenda.sd.15@gmail.com</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Llámame a</h5>
+
+   			<p>Celular: +51 959 780 528<br>
+			   	Teléfono: 01 393 7499
+			   </p>
+
+		   </div>
+		
+		<div class="col-four tab-full">
+
+			<div class="icon">
+				<i class="icon-user"></i>
+			</div>
+ 
+			<h5>Encuentrame en las Redes Sociales</h5>
+ 
+			<p>
+				<a href="https://github.com/brendapsd" target="_blank" style="text-decoration:none" ><i class="fa fa-github"></i> brendapsd</a><br>
+				<a href="https://www.linkedin.com/in/brendasuyon/" target="_blank" style="text-decoration:none" ><i class="fa fa-linkedin"></i> brendasuyon</a> <br>
+				<a href="https://www.behance.net/brendasd" target="_blank" style="text-decoration:none"><i class="fa fa-behance"></i></a>
+			</p>
+ 
+		</div>
+ 
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">    
+					<li><a href="https://github.com/brendapsd" target="_blank"><i class="fa fa-github"></i></a></li>    
+					<li><a href="https://www.linkedin.com/in/brendasuyon/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.behance.net/brendasd" target="_blank"><i class="fa fa-behance"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright 2019 Brenda Suyon.</span> 	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
